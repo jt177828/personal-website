@@ -3,9 +3,12 @@
 
 <template>
   <div>
-    <h1>Hello, I'm Justin</h1>
+    <Navbar />
+    <main>
+      <router-view />
+    </main>
   </div>
-</template>
+</template> 
 
 <style scoped>
 div {
