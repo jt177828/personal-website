@@ -5,7 +5,7 @@
       <div class="card">
         <h3>Personal website (Vue.js, TypeScript)</h3>
         <p>Built a Vue.js + TypeScript website to showcase my experiences</p>
-        <a>View on Github</a>
+        <a href="https://github.com/jt177828/personal-website" target="_blank">View on Github</a>
       </div>
 
     </div>

@@ -3,7 +3,7 @@
     <h2>Coursework</h2>
 
       <div class="card">
-          <h3>Introduction to Optimization- CO 250 (S25)</h3>
+          <h3>Introduction to Optimization - CO 250 (S25)</h3>
       </div>
       
       <div class="card">
