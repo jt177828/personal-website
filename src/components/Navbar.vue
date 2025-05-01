@@ -38,7 +38,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(25, 36, 41, 0.95);
+  background-color: #080b0f;
   z-index: 1000;
   transition: all 0.3s ease;
 }

@@ -5,7 +5,15 @@
     <div class="card">
       <div class="card-content">
         <h3 class="project-title">Personal website</h3>
-        <p class="project-description">Built a Vue.js + TypeScript website to showcase my experiences</p>
+        <p class="project-description">Built a Vue.js + TypeScript personal portfolio website</p>
+        
+        <div class="tech-container">
+          <span class="tech-tag">Vue.js</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+        
         <div class="card-footer">
           <a href="https://github.com/jt177828/personal-website" target="_blank" class="github-link">
             <span class="link-text">View on Github</span>
@@ -16,6 +24,19 @@
     </div>
   </div>
 </template>
+
+<script setup>
+// You can replace this with your actual data structure
+// const projects = [
+//   {
+//     title: "Personal website",
+//     description: "Built a Vue.js + TypeScript website to showcase my experiences",
+//     technologies: ["Vue.js", "TypeScript", "HTML", "CSS"],
+//     githubUrl: "https://github.com/jt177828/personal-website"
+//   },
+//   // Add more projects here
+// ]
+</script>
 
 <style scoped>
 .projects-page {
@@ -46,11 +67,10 @@
 
 .card {
   border: 1px solid rgba(204, 204, 204, 0.3);
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 1.5rem;
   margin: 1.5rem 0;
-  background-color: rgba(255, 255, 255, 0.03);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
@@ -69,8 +89,33 @@
 
 .project-description {
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   line-height: 1.6;
+}
+
+/* New styles for technology tags */
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+  display: inline-block;
+  background-color: rgba(84, 232, 128, 0.15);
+  color: #54e880;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid rgba(84, 232, 128, 0.3);
+  transition: all 0.2s ease;
+}
+
+.tech-tag:hover {
+  background-color: rgba(84, 232, 128, 0.25);
+  transform: translateY(-2px);
 }
 
 .card-footer {
@@ -119,6 +164,11 @@
   
   .card {
     padding: 1.2rem;
+  }
+  
+  .tech-tag {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
   }
 }
 </style>

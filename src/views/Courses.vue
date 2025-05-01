@@ -1,6 +1,6 @@
 <template>
   <div class="coursework-page">
-    <h2 class="page-title">Coursework</h2>
+    <h2 class="page-title">Courses</h2>
 
     <!-- Spring 2025 Section -->
     <div class="term-section">
@@ -166,8 +166,7 @@
   border-radius: 12px;
   padding: 1.25rem;
   margin: 1rem 0;
-  background-color: rgba(255, 255, 255, 0.03);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
 

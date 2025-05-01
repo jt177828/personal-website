@@ -59,7 +59,7 @@
               </div>
               
               <div class="skills-category">
-                <h3 class="category-title">Frameworks & Libraries</h3>
+                <h3 class="category-title">Frameworks + libraries</h3>
                 <div class="skills-grid">
                   <div class="skill-item">
                     <i class="devicon-vuejs-plain colored"></i>
@@ -97,8 +97,12 @@
               </div>
               
               <div class="skills-category">
-                <h3 class="category-title">Tools & Technologies</h3>
+                <h3 class="category-title">Tools + technologies</h3>
                 <div class="skills-grid">
+                  <div class="skill-item">
+                    <i class="devicon-linux-plain"></i>
+                    <span class="skill-name">Linux</span>
+                  </div>
                   <div class="skill-item">
                     <i class="devicon-git-plain colored"></i>
                     <span class="skill-name">Git</span>
@@ -179,11 +183,10 @@
   }
   
   .about-card {
-    background-color: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(204, 204, 204, 0.2);
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .intro {
@@ -237,11 +240,10 @@
   }
   
   .skills-category {
-    background-color: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(204, 204, 204, 0.2);
-    border-radius: 12px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .category-title {

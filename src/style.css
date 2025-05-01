@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #192429;
+  background-color: #080b0f;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,6 +23,11 @@ a {
 }
 a:hover {
   color: white;
+}
+
+h2 {
+  font-size: 0.8rem;
+  line-height: 1.2;
 }
 
 body {
