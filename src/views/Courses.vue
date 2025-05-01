@@ -1,6 +1,6 @@
 <template>
   <div class="coursework-page">
-    <h2 class="page-title">Courses</h2>
+    <h2 class="page-title">Relevant Courses</h2>
 
     <!-- Spring 2025 Section -->
     <div class="term-section">
