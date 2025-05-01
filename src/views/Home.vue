@@ -2,11 +2,9 @@
     <section class="home">
       <h1>Justin Tian</h1>
       <p class="subtitle">Math @ University of Waterloo</p>
-  
-      <p class="intro">
-        I'm a university student passionate about building web applications, solving algorithmic challenges,
-        and exploring the intersection of math and computer science. This is my personal portfolio — feel free to explore!
-      </p>
+
+      <a href="https://github.com/jt177828/"><i class="devicon-github-original"></i></a>
+      <a href="https://www.linkedin.com/in/justintian72/"><i class="devicon-linkedin-plain"></i></a>
 
     </section>
   </template>
@@ -19,7 +17,7 @@
   
   .subtitle {
     font-size: 1.25rem;
-    color: #555;
+    color: #7c858a;
     margin-bottom: 1.5rem;
   }
   
@@ -42,6 +40,16 @@
   
   .cta:hover {
     background-color: white;
+  }
+
+  a {
+    position: relative;
+    color: white;
+    font-size: 3rem;
+    margin: 3rem;
+  }
+  a:hover {
+    cursor: pointer;
   }
   </style>
   
