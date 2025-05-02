@@ -108,7 +108,7 @@
                     <span class="skill-name">Git</span>
                   </div>
                   <div class="skill-item">
-                    <i class="devicon-github-original colored"></i>
+                    <i class="devicon-github-original"></i>
                     <span class="skill-name">GitHub</span>
                   </div>
                   <div class="skill-item">
@@ -134,10 +134,6 @@
                   <div class="skill-item">
                     <i class="devicon-vite-original colored"></i>
                     <span class="skill-name">Vite</span>
-                  </div>
-                  <div class="skill-item">
-                    <i class="devicon-docker-plain colored"></i>
-                    <span class="skill-name">Docker</span>
                   </div>
                 </div>
               </div>
