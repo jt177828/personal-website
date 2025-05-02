@@ -141,7 +141,7 @@ export default {
     height: 100vh;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(25, 36, 41, 0.98);
+    background-color: #080b0f;
     backdrop-filter: blur(10px);
     transition: all 0.4s ease;
     gap: 2.5rem;
