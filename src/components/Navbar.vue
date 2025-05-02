@@ -8,10 +8,10 @@
       </button>
       
       <nav class="nav-links" :class="{ 'active': mobileMenuOpen }">
-        <router-link to="/" class="nav-link">Home</router-link>
-        <router-link to="/about" class="nav-link">About</router-link>
-        <router-link to="/projects" class="nav-link">Projects</router-link>
-        <router-link to="/courses" class="nav-link">Courses</router-link>
+        <router-link to="/" class="nav-link" @click="closeMobileMenu">Home</router-link>
+        <router-link to="/about" class="nav-link" @click="closeMobileMenu">About</router-link>
+        <router-link to="/projects" class="nav-link" @click="closeMobileMenu">Projects</router-link>
+        <router-link to="/courses" class="nav-link" @click="closeMobileMenu">Courses</router-link>
       </nav>
     </div>
   </header>
@@ -27,8 +27,12 @@ export default {
   methods: {
     toggleMobileMenu() {
       this.mobileMenuOpen = !this.mobileMenuOpen;
+    },
+    closeMobileMenu() {
+      this.mobileMenuOpen = false;
     }
   }
+
 }
 </script>
   
@@ -136,7 +140,7 @@ export default {
   .nav-links {
     position: fixed;
     top: 0;
-    right: -100%;
+    left: -100%;
     width: 70%;
     height: 100vh;
     flex-direction: column;
@@ -150,7 +154,7 @@ export default {
   }
   
   .nav-links.active {
-    right: 0;
+    left: 0;
   }
   
   .nav-link {
