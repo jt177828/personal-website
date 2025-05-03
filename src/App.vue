@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Navbar from './components/Navbar.vue'
 import { Analytics } from '@vercel/analytics/vue';
 </script>
 
@@ -11,10 +12,6 @@ import { Analytics } from '@vercel/analytics/vue';
     </main>
   </div>
 </template> 
-
-<script setup lang="ts">
-import Navbar from './components/Navbar.vue'
-</script>
 
 <style scoped>
 div {
