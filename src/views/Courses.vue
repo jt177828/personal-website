@@ -12,8 +12,8 @@
       <div class="card">
         <div class="card-content">
           <div class="course-header">
-            <h3 class="course-title">Introduction to Optimization</h3>
-            <span class="course-code">CO 250</span>
+            <h3 class="course-title">Linear Algebra 2</h3>
+            <span class="course-code">MATH 235</span>
           </div>
         </div>
       </div>
