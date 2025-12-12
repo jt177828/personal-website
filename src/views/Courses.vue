@@ -2,11 +2,11 @@
   <div class="coursework-page">
     <h2 class="page-title">Relevant Courses</h2>
 
-    <!-- Spring 2025 Section -->
+    <!-- Fall 2025 Section -->
     <div class="term-section">
       <div class="term-indicator">
-        <span class="term-badge">S25</span>
-        <span class="term-name">Spring 2025</span>
+        <span class="term-badge">F25</span>
+        <span class="term-name">Fall 2025</span>
       </div>
       
       <div class="card">
@@ -14,6 +14,30 @@
           <div class="course-header">
             <h3 class="course-title">Linear Algebra 2</h3>
             <span class="course-code">MATH 235</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="course-header">
+            <h3 class="course-title">Calculus 3</h3>
+            <span class="course-code">MATH 237</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="course-header">
+            <h3 class="course-title">Probability</h3>
+            <span class="course-code">STAT 230</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="course-header">
+            <h3 class="course-title">Object-Oriented Software Development</h3>
+            <span class="course-code">CS 246</span>
           </div>
         </div>
       </div>
